@@ -109,7 +109,7 @@ ________________________________________________________________________________
 
 - `PlayerControls.jsx`: contains the playback controls, such as play/pause, skip, previous, etc.
 - `Playlists.jsx`:  displays the user's playlists retrieved from the Spotify API.
-- `Sidebar.jsx`: This component likely contains various sections like playlists, and recently played tracks.
+- `Sidebar.jsx`: contains various sections like playlists, and recently played tracks.
 
 ![sidebar](images/Capture424.PNG)
 
