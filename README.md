@@ -62,10 +62,10 @@ To enable authentication with the Spotify API, follow these steps:
 ## Folder Structure
 
 The project has the following folder structure:spotify-clone/
-├── src/
-│ ├── components/
-│ │ ├── Body.jsx
-│ │ ├── CurrentTrack.jsx
+-├── src/
+-│ ├── components/
+-│ │ ├── Body.jsx
+-│ │ ├── CurrentTrack.jsx
 │ │ ├── Footer.jsx
 │ │ ├── Login.jsx
 │ │ ├── Navbar.jsx
