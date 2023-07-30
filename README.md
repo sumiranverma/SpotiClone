@@ -62,50 +62,64 @@ To enable authentication with the Spotify API, follow these steps:
 ## Folder Structure
 
 The project has the following folder structure:spotify-clone/
--├── src/
--│ ├── components/
--│ │ ├── Body.jsx
--│ │ ├── CurrentTrack.jsx
-│ │ ├── Footer.jsx
-│ │ ├── Login.jsx
-│ │ ├── Navbar.jsx
-│ │ ├── PlayerControls.jsx
-│ │ ├── Playlists.jsx
-│ │ ├── Sidebar.jsx
-│ │ ├── Spotify.jsx
-│ │ └── Volume.jsx
-│ ├── utils/
-│ │ ├── Constants.js
-│ │ ├── reducer.js
-│ │ └── StateProvider.js
-│ ├── App.jsx
-│ ├── index.css
-│ └── index.js
-└── ...
+- ├── src/
+- │ ├── components/
+- │ │ ├── Body.jsx
+- │ │ ├── CurrentTrack.jsx
+- │ │ ├── Footer.jsx
+- │ │ ├── Login.jsx
+- │ │ ├── Navbar.jsx
+- │ │ ├── PlayerControls.jsx
+- │ │ ├── Playlists.jsx
+- │ │ ├── Sidebar.jsx
+- │ │ ├── Spotify.jsx
+- │ │ └── Volume.jsx
+- │ ├── utils/
+- │ │ ├── Constants.js
+- │ │ ├── reducer.js
+- │ │ └── StateProvider.js
+- │ ├── App.jsx
+- │ ├── index.css
+- │ └── index.js
+- └── ...
+
 
 `components` folder:
 ____________________________________________________________________________________________________________________________________________________________________________
--`Body.jsx`: represents the main content area of the Spotify clone where the playlist and current track information are displayed.
+- `Body.jsx`: represents the main content area of the Spotify clone where the playlist and current track information are displayed.
+
 ![body](images/Capture427.PNG)
--`CurrentTrack.jsx`: displays information about the currently playing track, such as the track name, artist, and album artwork.
--`Footer.jsx`: represents the footer section of the application, containing playback controls like play/pause, skip, etc.
+
+- `CurrentTrack.jsx`: displays information about the currently playing track, such as the track name, artist, and album artwork.
+- `Footer.jsx`: represents the footer section of the application, containing playback controls like play/pause, skip, etc.
+  
 ![footer](images/Capture423.PNG)
--`Login.jsx`: handles the login process for the Spotify API using the clientID  obtained from the Spotify for Developers website.
+
+- `Login.jsx`: handles the login process for the Spotify API using the clientID  obtained from the Spotify for Developers website.
+
 ![login](images/Capture419.PNG)
+
 ![login1](images/Capture420.PNG)
+
 ![login2](images/Capture421.PNG)
--`Navbar.jsx`: navigation bar for the application, providing search functionality and profile.
+
+- `Navbar.jsx`: navigation bar for the application, providing search functionality and profile.
+  
 ![navbar](images/Capture426.PNG)
--`PlayerControls.jsx`: contains the playback controls, such as play/pause, skip, previous, etc.
--`Playlists.jsx`:  displays the user's playlists retrieved from the Spotify API.
--`Sidebar.jsx`: This component likely contains various sections like playlists, and recently played tracks.
+
+- `PlayerControls.jsx`: contains the playback controls, such as play/pause, skip, previous, etc.
+- `Playlists.jsx`:  displays the user's playlists retrieved from the Spotify API.
+- `Sidebar.jsx`: This component likely contains various sections like playlists, and recently played tracks.
+
 ![sidebar](images/Capture424.PNG)
--`Spotify.jsx`: handles the communication with the Spotify API using the clientID and other necessary authentication details.
--`Volume.jsx`:  responsible for controlling the volume of the audio playback.
+
+- `Spotify.jsx`: handles the communication with the Spotify API using the clientID and other necessary authentication details.
+- `Volume.jsx`:  responsible for controlling the volume of the audio playback.
 ____________________________________________________________________________________________________________________________________________________________________________
 
 `utils` folder:
 ____________________________________________________________________________________________________________________________________________________________________________
--`Constants.js`:  contains constant values used across the application, such as API endpoints, and action types for the reducer.
--`reducer.js`: contains the reducer function that manages the state of the application using the React Context API.
--`StateProvider.js`:  sets up the state management using React Context API and the reducer.
+- `Constants.js`:  contains constant values used across the application, such as API endpoints, and action types for the reducer.
+- `reducer.js`: contains the reducer function that manages the state of the application using the React Context API.
+- `StateProvider.js`:  sets up the state management using React Context API and the reducer.
+____________________________________________________________________________________________________________________________________________________________________________
