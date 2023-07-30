@@ -46,7 +46,7 @@ npm install
 
 1. Obtain a Spotify client ID by creating an app on the [Spotify for Developers website](https://developer.spotify.com/dashboard/applications).
 
-2. Add the Spotify client ID to the `Spotify.jsx` component in the project's `components` folder.
+2. Add the Spotify client ID to the `Login.jsx` component in the project's `components` folder.
 
 3. Run the development server:
 ```npm start```
@@ -89,30 +89,42 @@ The project has the following folder structure:
 ____________________________________________________________________________________________________________________________________________________________________________
 - `Body.jsx`: represents the main content area of the Spotify clone where the playlist and current track information are displayed.
 
+
 ![body](images/Capture427.PNG)
+
 
 - `CurrentTrack.jsx`: displays information about the currently playing track, such as the track name, artist, and album artwork.
 - `Footer.jsx`: represents the footer section of the application, containing playback controls like play/pause, skip, etc.
+
   
 ![footer](images/Capture423.PNG)
 
+
 - `Login.jsx`: handles the login process for the Spotify API using the clientID  obtained from the Spotify for Developers website.
+  
 
 ![login](images/Capture419.PNG)
 
+
 ![login1](images/Capture420.PNG)
+
 
 ![login2](images/Capture421.PNG)
 
+
 - `Navbar.jsx`: navigation bar for the application, providing search functionality and profile.
+
   
 ![navbar](images/Capture426.PNG)
+
 
 - `PlayerControls.jsx`: contains the playback controls, such as play/pause, skip, previous, etc.
 - `Playlists.jsx`:  displays the user's playlists retrieved from the Spotify API.
 - `Sidebar.jsx`: contains various sections like playlists, and recently played tracks.
 
+
 ![sidebar](images/Capture424.PNG)
+
 
 - `Spotify.jsx`: handles the communication with the Spotify API using the clientID and other necessary authentication details.
 - `Volume.jsx`:  responsible for controlling the volume of the audio playback.
@@ -120,7 +132,9 @@ ________________________________________________________________________________
 
 `utils` folder:
 ____________________________________________________________________________________________________________________________________________________________________________
+
 - `Constants.js`:  contains constant values used across the application, such as API endpoints, and action types for the reducer.
 - `reducer.js`: contains the reducer function that manages the state of the application using the React Context API.
 - `StateProvider.js`:  sets up the state management using React Context API and the reducer.
+
 ____________________________________________________________________________________________________________________________________________________________________________
