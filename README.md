@@ -84,7 +84,7 @@ The project has the following folder structure:
 - │ └── index.js
 - └── ...
 
-
+____________________________________________________________________________________________________________________________________________________________________________
 `components` folder:
 ____________________________________________________________________________________________________________________________________________________________________________
 - `Body.jsx`: represents the main content area of the Spotify clone where the playlist and current track information are displayed.
